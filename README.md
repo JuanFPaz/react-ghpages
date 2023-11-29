@@ -24,9 +24,9 @@ Para finalizar este paso, vamos a iniciar un repositorio local de `Git`, con el 
 
 ## Crear un Repositorio remoto en Github
 
-Para utilizar `Github Pages`, necesitamos tener un repositorio remoto, con nuestro proyecto. Para eso nos dirigmos a [Github] y creamos un nuevo repositorio publico (puede ser privado, pero solo funciona con la version paga de `Github`) y colocamos el nombre del proyecto.
+Para utilizar `Github Pages`, necesitamos tener un repositorio remoto, con nuestro proyecto. Para eso nos dirigmos a [Github](htts://github.com) y creamos un nuevo repositorio publico (puede ser privado, pero solo funciona con la version paga de `Github`) y colocamos el nombre del proyecto.
 
-En realidad, `Github Pages` nos permite 2 formas de crear un repositorio remoto para desplegar un sitio:
+En esta parte, `Github Pages` nos permite 2 formas de crear un repositorio remoto para desplegar un sitio:
 
 1. Podemos crear un repositorio con el nombre de nuestro usuario (en minisculas en el caso que tu usuario contenga mayusculas), mas la siguiente extension:
 
@@ -40,7 +40,7 @@ En realidad, `Github Pages` nos permite 2 formas de crear un repositorio remoto 
     - Nombre del Repositorio: ```react-ghpages```
     - URL del sitio desplegado: ```https://<nombre-del-usuario>.github.io/<nombre-del-repositorio>/```
 
-    Este paso, lo podemos repetir con diferentes proyectos. Más adelante vamos a ver cual es la diferencia entre ambas.
+    Este paso, lo podemos repetir con diferentes proyectos.
 
 Una vez, creado el repositorio remoto, tenemos que enlazarlo a nuestro repositorio local, donde se encuentra nuestro proyecto de react que vamos a desplegar. Para eso volvemos a nuestro proyecto, y en la terminal ejecutamos el siguiente comando:
 
